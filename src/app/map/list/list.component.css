@@ -1,0 +1,8 @@
+td{
+    padding: 0 100px;
+}
+
+.tr-filha:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}

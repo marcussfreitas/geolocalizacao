@@ -1,0 +1,12 @@
+<table border="1">
+    <tr>
+        <th>Usuário</th>
+        <th>IP</th>
+        <th>Atividade</th>
+    </tr>
+    <tr class="tr-filha" *ngFor="let user of users" (click)="clickedUser(user)">
+        <td>{{user.name}}</td>
+        <td>{{user.ip}}</td>
+        <td>{{user.status}}</td>
+    </tr>
+</table>
